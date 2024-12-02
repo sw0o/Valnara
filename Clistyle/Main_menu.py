@@ -28,7 +28,18 @@ User_Choice = Main_menu()
 
 if "Nmap" in User_Choice:
     Nmap_menu()  
+elif "Zap" in User_Choice:
+    print("zap")
+elif "WordPress" in User_Choice:
+    print("Wordpress")
 elif "Quit" in User_Choice:
     os.system("clear")
+
+
+
+
+
+
+
    
 
